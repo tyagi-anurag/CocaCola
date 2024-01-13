@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocacola</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Canvas for WebGL rendering -->
+    <canvas class="webgl"></canvas>
+    
+    <!-- Section One: Navigation and Hero Content -->
+    <section class="one">
+        <!-- Navigation Bar -->
+        <div class="navbar" id="myNavbar">
+            <div class="logo">Coca-Cola</div>
+            <div>
+                <!-- Navigation Links -->
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+                    &#9776;
+                </a>
+            </div>
+        </div>
+        
+        <!-- Hero Content -->
+        <div class="container">
+            <div class="hero">
+                <h2 class="brand-head">Coca <br> Cola</h2>
+                <h2 class="brand-head2">CocaCola</h2>
+                <h3 class="hero-left">Enjoy the crisp and refreshing taste of Coca-Cola Original.</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Two: Description -->
+    <section class="two">
+        <div class="container">
+            <div class="hero hero-section1">
+                <h3>"Open Happiness with Every Sip"</h3>
+                <p>Dive into the effervescent world of Coca-Cola, where each drink is a delightful journey of joy and refreshment.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section Three: Legacy -->
+    <section class="three">
+        <div class="container">
+            <div class="hero hero-section2">
+                <h3>"Coca-Cola: A Legacy of Refreshing Moments"</h3>
+                <p>For over a century, Coca-Cola has been crafting unforgettable moments, one sip at a time. Join us in celebrating a legacy of timeless refreshment</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Four: Animated Heading -->
+    <section class="four">
+        <h1 id="animated-heading">Coca-Cola</h1>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <div class="logo">Coca-Cola</div>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2023 The Coca-Cola Company</p>
+                <p>123 Coca-Cola Way, Atlanta, GA 30301</p>
+            </div>
+            <div class="footer-social">
+                <!-- Social Media Icons -->
+                <a href="#"><img src="./img/fb.png" alt="Facebook"></a>
+                <a href="#"><img src="./img/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="./img/insta.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- External JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.146.0/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.146.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
